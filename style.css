@@ -1,0 +1,72 @@
+
+	/*
+		STYLE.CSS
+		=========
+	*/
+	
+	html, body {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 0;
+		margin: 0;
+		padding: 0;
+		font-size: 18px;
+	}
+	
+	footer {
+		margin: 5%;
+		text-align: center;
+	}
+	
+	#gameRules {
+		padding: 5%;
+	}
+	
+	#fiarGame {
+		margin-left: 5%;
+	}
+	
+	.neutralTile {
+		height: 100px;
+		width: 100px;
+		background-color: lightyellow;
+		text-align: center;
+	}
+	
+	#fiarGame {
+		background-color: cornflowerblue;
+	}
+	
+	#rowOfGameButtons {
+		padding: 2%;
+		margin-left: 5%;
+	}
+	
+	button {
+		padding: 2%;
+		margin-left: 1%;		
+	}
+	
+	
+	/*
+		THESE CLASSES I GOT FROM 
+		W3SCHOOLS .COM
+	*/
+	.blueCounter {
+	  height: 100px;
+	  width: 100px;
+	  background-color: blue;
+	  border-radius: 50%;
+	  display: inline-block;
+	  color: white;
+	}
+	
+	.redCounter {
+	  height: 100px;
+	  width: 100px;
+	  background-color: red;
+	  border-radius: 50%;
+	  display: inline-block;
+	  color: white;
+	}

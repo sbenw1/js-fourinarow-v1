@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+    <title>Four in a Row || Sam Wheel</title>
+	
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	
+  </head>
+  <body>
+  
+	<!--	The main header, explaings the game.	-->
+	<div id="jumbotron">
+		<h1>Four in a Row</h1>
+		<p>This is a game of Four in a Row. To win, you need to get a row of four tiles in a row, 
+		horizontal or vertical.</p>
+		<p>Simply tap on a tile to add a counter. If there is no counters underneath, the new counter 
+		will "drop down" to the nearest one.</p>
+	</div>
+
+	<div id="gameContainer">
+		
+		<div>
+	
+			<table id="fiarGame">
+			</table>
+			
+			<div id="rowOfGameButtons">
+				<button id="btnCol0">1</button>
+				<button id="btnCol0">2</button>
+				<button id="btnCol0">3</button>
+				<button id="btnCol0">4</button>
+				<button id="btnCol0">5</button>
+				<button id="btnCol0">6</button>
+			</div>
+		
+		</div>
+		
+	</div>
+	
+	<footer>
+		<p>&copy; Sam Wheel, 2020</p>
+	</footer>
+	
+		<!--	Game logic 	-->
+		<script src="./js/victorycheck.js"></script>
+		<script src="./js/sideswitcher.js"></script>
+		<script src="./js/buttonlogic.js"></script>
+	
+		<!--	Representation of a tile.	-->
+		<script src="./js/tile.js"></script>
+	
+		<!--	The representation of the board..	-->
+		<script src="./js/board.js"></script>
+		
+	
+		<!--	The game's innit file.	-->
+		<script src="./js/init.js"></script>
+		
+	
+  </body>
+</html>
+
+
+
+
+<!--
+	A battle that has been fought 
+		for years
+		can be won
+			or lost 
+		in a single day.
+	- Sun Tzu 
+-->
